@@ -6,8 +6,8 @@
       <class name="com.demo.Apollo247.TestRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.demo.Apollo247.TestRunner -->
     </classes>
