@@ -82,12 +82,12 @@ public class LabTestsStepDefinition
 //
 	@Given("user clicks on search bar and enters labTests {string}")
 	public void user_clicks_on_search_bar_and_enters_lab_tests(DataTable labTest) {
-		labTestsPage = new LabTestsPage(driver); 
-		labTestsPage.clickSearchBar();
-		List<String> cell=labTest.asList(String.class);
-		log.typeTest(cell.get(0));
+//		labTestsPage = new LabTestsPage(driver); 
+//		labTestsPage.clickSearchBar();
+//		List<String> cell=labTest.asList(String.class);
+//		log.typeTest(cell.get(0));
 	}
-
+	
 	@When("user clicks on that particular Test")
 	public void user_clicks_on_that_particular_test() {
 	    // Write code here that turns the phrase above into concrete actions
@@ -222,9 +222,9 @@ public class LabTestsStepDefinition
 //	
 //	@AfterStep
 //	public static void tearDown(Scenario scenario){
-// 
-//   //validate if scenario has failed
-////   if(scenario.isFailed()) {
+ 
+   //validate if scenario has failed
+//   if(scenario.isFailed()) {
 //   final byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
 //   scenario.attach(screenshot, "image/png", scenario.getName());
 //        }   

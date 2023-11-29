@@ -38,7 +38,7 @@ When user clicks add button of a labTest
 |Lipid Profile| #Use Excel
 And user clicks on top cart button
 Then user remove the test from cart
- 
+
 #@negative_Scenario
 #Scenario: invalid Lab test
 #Given User clicks on search lab tests bar

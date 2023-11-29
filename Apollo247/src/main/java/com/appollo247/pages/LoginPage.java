@@ -8,7 +8,6 @@ public class LoginPage extends BasePage{
 
 	public LoginPage(WebDriver driver) throws InterruptedException {
 		super(driver);
-		
 	}
 
 	@FindBy(name="mobileNumber")

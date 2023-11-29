@@ -87,7 +87,7 @@ import org.openqa.selenium.support.FindBy;
 		}
 		
 		public void clickCholestrolSerum() {
-			cholestrolSerum.click();
+		 cholestrolSerum.click();
 		}
 		
 		public void clickAddToCart() {

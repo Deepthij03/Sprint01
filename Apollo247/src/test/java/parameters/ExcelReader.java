@@ -16,7 +16,6 @@ public class ExcelReader
 		FileInputStream fis= new FileInputStream("C:\\Users\\djampani\\Eclipse-Workspace2\\Apollo247\\src\\test\\resources\\Data\\users.xlsx");
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
 		XSSFSheet s1=wb.getSheetAt(0);
-		
 		XSSFRow r=s1.getRow(0);
 		
 		int row=s1.getLastRowNum();
