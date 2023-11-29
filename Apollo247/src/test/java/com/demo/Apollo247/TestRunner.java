@@ -8,4 +8,4 @@ public class TestRunner extends AbstractTestNGCucumberTests
 {
   
 }
-//,glue= {"steps"}, plugin= {"pretty","html:target/cucumber-report.html"}
+//,glue= {"steps"}, plugin= {"pretty","html:target/cucumber-report.html", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}

@@ -54,13 +54,6 @@
     <artifactId>cucumber-testng</artifactId>
     <version>7.14.0</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-junit</artifactId>
-    <version>7.14.1</version>
-    <scope>test</scope>
-</dependency>
 
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
 <dependency>
@@ -103,6 +96,13 @@
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-chrome-driver</artifactId>
     <version>4.15.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
+<dependency>
+    <groupId>tech.grasshopper</groupId>
+    <artifactId>extentreports-cucumber7-adapter</artifactId>
+    <version>1.14.0</version>
 </dependency>
 
 
